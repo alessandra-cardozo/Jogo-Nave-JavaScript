@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Jogo em JavaScript</title>
+<style>
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+canvas {
+    border: 2px solid white;
+    background-color: #111;
+}
+#pontuacao {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+}
+#dificuldade {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+<div id="pontuacao">Pontuação: 0</div>
+<div id="dificuldade">
+    <label for="nivel-dificuldade">Dificuldade:</label>
+    <select id="nivel-dificuldade">
+        <option value="facil">Fácil</option>
+        <option value="intermediario">Intermediário</option>
+        <option value="dificil">Difícil</option>
+    </select>
+</div>
+<canvas id="tela-jogo" width="800" height="600"></canvas>
+<script src="script.js"></script>
+</body>
+</html>
+
