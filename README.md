@@ -35,6 +35,5 @@ Um jogo simples desenvolvido com **HTML, CSS e JavaScript**, onde o jogador cont
 ✔️ Sistema de Game Over e reinício do jogo.
 ✔️ Inimigos gerados aleatoriamente.
 
-## 📌 Melhorias Futuras
 
 🕹️ **Divirta-se jogando!** 😃
